@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font: Arial, sans-serif;
-    background-color: #EFECE3
+    background-color: #EFECE3;
+    position: relative;
 
 }
 .top-bar {
@@ -39,19 +40,20 @@ body {
      outline: none;
      font-size: 16px;
  }
-
+/* MAIN NAVBAR */
 .navbar-main-container {
     background-color: #0C2B4E;
     color: white;
     display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
     justify-content: space-between;
     align-items: center;
     padding: 12px 30px;
-    position:sticky ;
+    position: sticky;
     top: 0;
     
 }
-
 
 .logo-container {
     display: flex;
@@ -71,11 +73,12 @@ body {
     border-radius: 70%;
 }
 
-
+/* NAV LINKS */
 .navbar-links-container {
     display: flex;
     gap: 30px;
     cursor: pointer;
+    flex-wrap: wrap;
 }
 
 .nav-links-text {
@@ -85,7 +88,7 @@ body {
     font-size: 16px;
 }
 
-.search-bar{
+/* SEARCH BAR */.search-bar{
     display: flex;
     align-items: center;
     background-color: #f5f5f5;
@@ -115,14 +118,13 @@ body {
     }
     .navbar-links-container {
         gap: 20px;
-        position: fixed;
     }
     .project-name {
         font-size: 20px;
     }
 }
 
-
+/* MOBILE VIEW */
 @media (max-width: 768px) {
     .navbar-main-container {
         flex-direction: column;
@@ -133,7 +135,6 @@ body {
     .navbar-links-container {
         flex-direction: column;
         gap: 12px;
-        position: fixed;
         width: 100%;
     }
 
@@ -154,7 +155,6 @@ body {
     }
 }
 
-
 @media (max-width: 480px) {
     .project-name {
         font-size: 18px;
@@ -165,6 +165,5 @@ body {
     }
     .navbar-links-container {
         gap: 10px;
-        position: fixed;
     }
 }
