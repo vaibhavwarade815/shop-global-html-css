@@ -63,8 +63,8 @@
  }
 
  .card-image {
-     width: 90px;
-     height: 90px;
+     width: 100px;
+     height: 95px;
      border-radius: 10px 10px 0px 0px;
      padding: 5px;
      margin-top: 0px;
@@ -228,4 +228,3 @@
      text-decoration: none;
      color: white;
  }
- @media (max-width: 768px) {}
