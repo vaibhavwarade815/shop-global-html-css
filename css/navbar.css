@@ -47,7 +47,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 12px 30px;
-    position:sticky;
+    position:sticky ;
     top: 0;
     
 }
@@ -115,6 +115,7 @@ body {
     }
     .navbar-links-container {
         gap: 20px;
+        position: fixed;
     }
     .project-name {
         font-size: 20px;
@@ -132,6 +133,7 @@ body {
     .navbar-links-container {
         flex-direction: column;
         gap: 12px;
+        position: fixed;
         width: 100%;
     }
 
@@ -163,5 +165,6 @@ body {
     }
     .navbar-links-container {
         gap: 10px;
+        position: fixed;
     }
 }
